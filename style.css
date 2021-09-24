@@ -8,11 +8,12 @@ h1{
     color: #fae1dd;
     font-weight: bold; 
     background-color: #9d0208; 
-    padding:0.5rem;
+    padding:1rem;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin-right: 600px;
 }
+
 .tag{
     color:white;
     /* font-weight: normal; */
@@ -31,7 +32,7 @@ h1{
     font-size: 25px;
 }
 h2{
-    color:white;
+    color:#264653;
 }
 .i{
     float: center;
@@ -48,9 +49,10 @@ h2{
 }
 a{
     color: white;
-
+    text-decoration: none;
 }
-h2{
+h2>a{
+    color: #ff006e;
     padding: 15px;
     background: transparent;
     font-family:'Courier New', Courier, monospace;
@@ -58,4 +60,33 @@ h2{
     font-size: 22px;
     word-spacing: 0px;
 }
+.tab1 a:hover{
+    color: blueviolet;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a:hover{
+    color: magenta;
+    font-size: 30px;
+}
+.tag1{
+    color: red;
+    background-color: #3d405b; 
+    padding:5px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: oblique; 
+    font-size: 30px;
+}
+
+/* a[href*="instagram"]{
+    color: #f72585
+a[href*="gmail"]{
+    color: #4895ef;
+}
+a[href*="github"]{
+    color: #6c757d;
+} */
 
